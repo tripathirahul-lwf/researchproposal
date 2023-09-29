@@ -1421,6 +1421,134 @@ ol {
     line-height: 22px;
 }
 
+
+
+/*======================================
+    App Info CSS
+========================================*/
+.app-info .info-one {
+    position: relative;
+}
+
+.app-info .info-one .info-image {
+    padding: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one .info-image {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one .info-image {
+        padding-top: 50px;
+    }
+}
+
+.app-info .info-one .info-image img {
+    width: 100%;
+}
+
+.app-info .info-one.style2 {
+    padding-top: 70px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one.style2 .info-text {
+        padding-top: 60px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one.style2 .info-text {
+        padding-top: 50px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one.style2 .info-image {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one.style2 .info-image {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one.style2 {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one.style2 {
+        padding-top: 50px;
+    }
+}
+
+.app-info .info-one.style2 .info-text {
+    padding-left: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one.style2 .info-text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one.style2 .info-text {
+        padding: 0;
+    }
+}
+
+.app-info .info-one .info-text .main-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff6b81;
+    margin-bottom: 30px;
+}
+
+.app-info .info-one .info-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #081828;
+    line-height: 42px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .app-info .info-one .info-text h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-info .info-one .info-text h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+.app-info .info-one .info-text p {
+    margin-bottom: 15px;
+}
+
+.app-info .info-one .info-text .button {
+    margin-top: 35px;
+}
+
 /*======================================
     Our Achievement CSS
 ========================================*/
@@ -1599,24 +1727,29 @@ ol {
     padding: 0 2rem 2rem;
     font-size: 16px;
 }
+
 @media screen and (max-width: 991px) {
     .para {
         padding: 0 10%;
     }
+
     .steps-wrapper {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px 20px;
     }
 }
+
 @media (max-width: 767px) {
     .para {
         padding: 0 2%;
     }
-    .steps-wrapper{
-        grid-template-columns:  1fr;
+
+    .steps-wrapper {
+        grid-template-columns: 1fr;
         grid-gap: 40px 0;
     }
 }
+
 /*======================================
     Testimonial CSS
 ========================================*/
@@ -1738,37 +1871,45 @@ ul.slider img {
 }
 
 
-.post-content{
+.post-content {
     padding: 0 5%;
 }
+
 .post-content p {
     color: #081828;
     font-size: 17px;
     font-weight: 600;
     line-height: 28px;
 }
-.reviewer_start{
+
+.reviewer_start {
     margin-top: 2rem;
 }
-.rate_star span{
+
+.rate_star span {
     color: #ffb700;
 }
-.waves-effect{
+
+.waves-effect {
     background: #5bc3f8;
     color: #fff;
     transition: all .4s;
     font-size: 16px;
 }
-.waves-effect:hover{
+
+.waves-effect:hover {
     background: #78cbf5;
     color: #fff;
 }
-.fa-angle-left{
+
+.fa-angle-left {
     margin-right: .5rem;
 }
-.fa-angle-right{
+
+.fa-angle-right {
     margin-left: .5rem;
 }
+
 /*======================================
     Faq CSS
 ========================================*/
